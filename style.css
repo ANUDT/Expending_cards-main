@@ -44,13 +44,13 @@ body {
   
   /* Change the background color on mouse-over */
   .header a:hover {
-    background-color: #bcd1b4;
+    background-color: #b4c097;
     color: black;
   }
   
   /* Style the active/current link*/
   .header a.active {
-    background-color: rgb(165, 243, 233);
+    background-color: rgb(200, 231, 227);
     color:  #494949;
   }
   
