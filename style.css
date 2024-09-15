@@ -6,7 +6,7 @@ box-sizing: border-box;
 
 body {
  font-family: 'Muli, sans-serif';
- background-color: rgb(230, 240, 212);
+ background-color: rgb(224, 201, 179);
  margin: 0;
  display: flex;
  align-items: center;
@@ -18,7 +18,7 @@ body {
 /* Style the header with a grey background and some padding */
 .header {
     overflow: hidden;
-    background-color:  #eee7c5; 
+    background-color:  #bb9779; 
     padding: 20px 10px;
     padding-top: 20px;
   }
@@ -26,7 +26,7 @@ body {
   /* Style the header links */
   .header a {
     float: left;
-    color: rgb(40, 65, 33);
+    color: rgb(28, 61, 19);
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -51,7 +51,7 @@ body {
   /* Style the active/current link*/
   .header a.active {
     background-color: rgb(200, 231, 227);
-    color:  #494949;
+    color:  #8f4a4a;
   }
   
   /* Float the link section to the right */
@@ -82,7 +82,7 @@ background-position: center;
 background-repeat: no-repeat;
 height: 80vh;
 border-radius: 40px;
-color: rgb(197, 186, 195);
+color: rgb(228, 116, 52);
 cursor: pointer;
 flex: 0.5;
 margin: 10px;
