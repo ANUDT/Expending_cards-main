@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{ margin: 0; padding: 0;}
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+    
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-smoothing: antialiased;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+  background:  #e4afaf
+}
+body {
+   font-family: 'Muli, sans-serif';
+   background-color: rgb(224, 201, 179);
+   margin: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   overflow:hidden
+   
+  }
+  /* Style the header with a grey background and some padding */
+  .header {
+      overflow: hidden;
+      background-color:  #bb9779; 
+      padding: 20px 10px;
+      padding-top: 20px;
+    }
+    
+    /* Style the header links */
+    .header a {
+      float: left;
+      color: rgb(28, 61, 19);
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 18px;
+      line-height: 25px;
+      border-radius: 4px;
+      padding-bottom: 30;
+    }
+    
+    /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+    .header a.logo {
+      font-size: 25px;
+      font-weight: bold;
+    }
+    
+    /* Change the background color on mouse-over */
+    .header a:hover {
+      background-color: #b4c097;
+      color: black;
+    }
+    
+.down:before{content: "\f019"}
+.back:before{content:"\f112"}
+
+@media only screen and (min-width: 1360px){
+    .cd__main{
+      max-width: 1280px;
+      margin-left: auto;
+      margin-right: auto; 
+      padding: 24px;
+    }
+}
